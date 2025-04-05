@@ -1,0 +1,19 @@
+{
+    "name": "SteamCMD",
+    "id": "steamcmd",
+    "version": "1.0.0",
+    "description": "Installs SteamCMD, a command-line version of the Steam client",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select version of SteamCMD to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
